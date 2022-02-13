@@ -1,0 +1,187 @@
+[
+    {
+        "season":"fall",
+        "year":2015,
+        "department": "compsci",
+        "course_number": 121,
+        "course_title": "Intro to Problem Solving with Computers"
+    },
+    {
+        "season":"fall",
+        "year":2015,
+        "department": "compsci",
+        "course_number": 191,
+        "course_title": "First Year Seminar"
+    },
+    {
+        "season":"fall",
+        "year":2015,
+        "department": "math",
+        "course_number": 131,
+        "course_title": "Calculus I"
+    },
+    {
+        "season":"fall",
+        "year":2015,
+        "department": "physics",
+        "course_number": 181,
+        "course_title": "Physics I- Mechanics"
+    },
+    {
+        "season":"fall",
+        "year":2015,
+        "department": "physics",
+        "course_number": 185,
+        "course_title": "Freshman Colloquium"
+    },
+    {
+        "season":"spring",
+        "year":2016,
+        "department": "compsci",
+        "course_number": 187,
+        "course_title": "Programming with Data Structures"
+    },
+    {
+        "season":"spring",
+        "year":2016,
+        "department": "math",
+        "course_number": 132,
+        "course_title": "Calculus II"
+    },
+    {
+        "season":"fall",
+        "year":2016,
+        "department": "compsci",
+        "course_number": 220,
+        "course_title": "Programming Methodology"
+    },
+    {
+        "season":"fall",
+        "year":2016,
+        "department": "compsci",
+        "course_number": 240,
+        "course_title": "Reasoning Under Uncertainty"
+    },
+    {
+        "season":"fall",
+        "year":2016,
+        "department": "statistics",
+        "course_number": 515,
+        "course_title": "Statistics I"
+    },
+    {
+        "season":"spring",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 230,
+        "course_title": "Computer System Principles"
+    },
+    {
+        "season":"spring",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 250,
+        "course_title": "Introduction to Computation"
+    },
+    {
+        "season":"spring",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 197,
+        "course_title": "Basics of Cybersecurity"
+    },
+    {
+        "season":"spring",
+        "year":2017,
+        "department": "math",
+        "course_number": 235,
+        "course_title": "Intro to Linear Algebra"
+    },
+    {
+        "season":"fall",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 311,
+        "course_title": "Inroduction to Algorithms"
+    },
+    {
+        "season":"fall",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 320,
+        "course_title": "Software Engineering"
+    },
+    {
+        "season":"fall",
+        "year":2017,
+        "department": "compsci",
+        "course_number": 328,
+        "course_title": "Mobile Health Sensing and Analytics"
+    },
+    {
+        "note": "Semester abroad at the University of Glasgow",
+        "season":"spring",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 4011,
+        "course_title": "Operating Systems"
+    },
+    {
+        "note": "Semester abroad at the University of Glasgow",
+        "season":"spring",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 4012,
+        "course_title": "Networked Systems"
+    },
+    {
+        "note": "Semester abroad at the University of Glasgow",
+        "season":"spring",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 4069,
+        "course_title": "Information Retrieval"
+    },
+    {
+        "season":"fall",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 305,
+        "course_title": "Social Issues in Computing"
+    },
+    {
+        "season":"fall",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 326,
+        "course_title": "Web Programming"
+    },
+    {
+        "season":"fall",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 383,
+        "course_title": "Artificial Intelligence"
+    },
+    {
+        "season":"fall",
+        "year":2018,
+        "department": "compsci",
+        "course_number": 591,
+        "course_title": "Cybersecurity FacLec Series"
+    },
+    {
+        "season":"spring",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 461,
+        "course_title": "Secured Distributed Systems"
+    },
+    {
+        "season":"spring",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 529,
+        "course_title": "Software Engineering Project Management"
+    }
+]
