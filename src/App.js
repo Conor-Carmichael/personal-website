@@ -22,9 +22,8 @@ function App() {
         <Route path='/projects' element={<Projects />}      />
         <Route path='/education' element={<Education />}    />
         <Route path='/msc-project' element={<MScProject />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/interests' element={<Interests />} />
-          
+        <Route path='/experience' element={<Experience />}  />
+        <Route path='/interests' element={<Interests />}    />
       </Routes>
       
     </Router>
