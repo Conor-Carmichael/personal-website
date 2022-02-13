@@ -1,0 +1,64 @@
+[
+    {
+        "start": {
+            "m": "january",
+            "y": "2020"
+        },
+        "end": {
+            "m":"",
+            "y": ""
+        },
+        "title": "Data Scientist",
+        "desc": [
+            "Fine tuned dense passsage retrieval models for two separate customer facing search applications. This included data augmentation, labelling, evaluating various model hyperparmeter configurations.",
+            "Developed and maintained data pipelines to prepare content for the two search capabilities. The search context was processed into DPR ready index files, and a readable, parseable format to be returned for the application to display. Run as an AWS batch job and stored via python connections to S3 buckets.",
+            "Implemented a unique Multi Armed Bandits approach to personalize content shown to users on mobile leveraging their interaction data. Used all users interaction history to generate prior distributions to initialize behavior for new customers. Designed a Streamlit app to simulate the model's ability to approixmate a users actual behavior."
+        ],
+        "company": "Fidelity Investments"
+    },
+    {
+        "start": {
+            "m": "january",
+            "y": "2019"
+        },
+        "end": {
+            "m":"may",
+            "y": "2019"
+        },
+        "title": "Undergraduate Course Assistant",
+        "desc": [
+            "Responsible for grading assignments, responding to student questions online, facilitating two labs per week, and running a workshop on topics covered in lectures."
+        ],
+        "company": "University of Massachusetts Amherst"
+    },
+    {
+        "start": {
+            "m": "may",
+            "y": "2018"
+        },
+        "end": {
+            "m":"august",
+            "y": "2018"
+        },
+        "title": "Technical Intern",
+        "desc": [
+            "Developed web-based views of data which showed the status of applications crucial to access control. Responsible for performing time-efficient calculations to yield the most useful view of the data for each page and designing data-efficient SQL statements for each dataset."
+        ],
+        "company": "Fidelity Investments"
+    },
+    {
+        "start": {
+            "m": "may",
+            "y": "2018"
+        },
+        "end": {
+            "m":"august",
+            "y": "2018"
+        },
+        "title": "Technical Intern",
+        "desc": [
+            "Gathered security standards and developed a proof of concept for a self-service portal designed to reduce cyber security consultations. Developed an eco-friendly, web-based proof of concept for electronic cafeteria receipt delivery, eliminating paper costs."
+        ],
+        "company": "Fidelity Investments"
+    }
+]

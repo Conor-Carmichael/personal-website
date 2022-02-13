@@ -1,0 +1,79 @@
+[
+    {
+        "season":"fall",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Programming and Systems Development"
+    },
+    {
+        "season":"fall",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Artificial Intelligence"
+    },
+    {
+        "season":"fall",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Introduction to Data Science and Systems"
+    },
+    {
+        "season":"fall",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Research and Professional Skills"
+    },
+    {
+        "season":"fall",
+        "year":2019,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Machine Learning for Data Scientists"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Mobile Human Computer Interaction"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Deep Learning"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Recommender Systems"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Text as Data"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Conversational Interfaces"
+    },
+    {
+        "season":"spring",
+        "year":2020,
+        "department": "compsci",
+        "course_number": 0,
+        "course_title": "Safety Critical Systems"
+    }
+]
