@@ -22,10 +22,12 @@ class Education extends Component {
                 <Row>
                     <Col >
                         <h2>University of Massachusetts Amherst</h2>
+                        <h4><i>Bachelors of Science, Computer Science</i></h4>
                         <ul>{undergradList}</ul>
                     </Col>
                     <Col>
                         <h2>University of Glasgow</h2>
+                        <h4><i>Masters of Science, Data Science</i></h4>
                         <ul>{postgradList}</ul>
                     </Col>
                 </Row>
