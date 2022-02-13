@@ -1,5 +1,5 @@
 import react from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Figure, Row } from "react-bootstrap";
 
 const MScProjectSection = ({
     header,
@@ -11,13 +11,59 @@ const MScProjectSection = ({
         return <p>{o}</p>
     });
 
+    let imageDisplays = images.map(function(obj, i) {
+        return (
+            <Figure>
+                <Figure.Image
+                    src={process.env.PUBLIC_URL + obj.path}
+                />
+                <Figure.Caption>
+                    {obj.caption}
+                </Figure.Caption>
+            </Figure>
+        )
+
+    })
+
     return (
         <Container>
-        <Row>
-            <h3>{header}</h3>
-            {body_sections}
-        </Row>
+            {   imageDisplays.length > 1 ? (
+                <Container> 
+                    <Row>
+                        <Col>
+                            <h3>{header}</h3>
+                            {body_sections}
+                        </Col>
+                    </Row>
+                    <Row>
+                        {imageDisplays.map(function(obj, i){
+                            return <Col>{obj}</Col>
+                        })}
+                    </Row>
+                </Container>
+            ) : (
+                imageDisplays.length == 1 ? (
+                    <Row>
+                        <Col>
+                            <h3>{header}</h3>
+                            {body_sections}
+                        </Col>
+                        <Col>{imageDisplays}</Col>
+                    </Row>
+                ):(
+                    <Row>
+                        <Col>
+                            <h3>{header}</h3>
+                            {body_sections}
+                        </Col>
+                    </Row>
+                )
+                
+
+            )}
+
         </Container>
+
     )
 }
 

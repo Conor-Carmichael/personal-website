@@ -1,19 +1,81 @@
 {
     "title": "Enabling autonomous navigation, with a simulated 360 degee camera",
-    "banner_img": "",
+    "banner_img": "/images/msc-project-images/museum_video_frame.png",
     "sections": [
         {
             "header": "Overview",
             "paras": [
-                
+                "The main idea of this project was to use a 360°(equirectangular) camera to enable navigation in a simulated environment. However, the Gazebo simulation software does not directly support or have plugins for a 360° camera. Many autonomous robots will use lasers to SLAM (Simulatienous Localization and Mapping) the environment- they are precise, and give quick readings of the environment. In this project I wanted to use of Visual SLAM, as cameras feeds are able to relay more information, and camera streams could be used for more utility than just mapping. The equirectangular aspect allows for quicker mapping, and also allows for this to be done in tighter areas where it may not be as easy to navigate the robot. "
+            ],
+
+            "images": []
+        
+        },
+        {
+            "header": "Structuring the Robot",
+            "paras": [
+                "Setting up the robots URDF file was not super challenging, but did require some forsight and a few iterations of design. Taking inspiration from the many tutorials on setting up a differential drive robot, especially http://moorerobots.com/, I set up this simple robot. It consists of a rectangular prism for a body, a sphere for a caster, and two cylinders for wheels. The cameras all positioned at the same point above the rectangular prism, and represented by the green cube. It was good enough to help me in prototyping camera setups, but its limitations became more apparent as I tried to use it in more complex environments. Namely, it would frequently drift off to the side, which would inhibit my ability to gather clean videos for SLAMming. "
             ],
             "images": [
                 {
-                    "path": "",
-                    "caption": ""
+                    "path": "/images/msc-project-images/first_bot.png",
+                    "caption": "First iteration of the bots design."
                 }
             ]
+        },
+        {
+            "header": "Designing a Camera Rig",
+            "paras": [
+                "To simulate an all around view, I chose to set up four cameras along the +/- X and Y axes, each with a horizontal field of view of 90°. Then I needed to stitch each of these cameras outputs together into one constant feed. I did this buy setting a ROS node that subscribed to all four camera feeds, synchronized them, then with OpenCV I was able to construct one new frame, with all the images combined. ",
+                "I stitched them together by putting them horizontally in order as: Left half of the negative X axis camera, positive y axis camera, positive x axis camera, negative y axis camera, right half of the negative X axis camera. When I had the output looking right, I was able to publish the output image, and/or save the frames. "
+            ],
+            "images": [
+                {
+                    "path": "/images/msc-project-images/negative_x.jpg",
+                    "caption": "Negative X axis."
+                },
+                {
+                    "path": "/images/msc-project-images/positive_y.jpg",
+                    "caption": "Positive X axis."
+                },
+                {
+                    "path": "/images/msc-project-images/positive_x.jpg",
+                    "caption": "Positive X axis."
+                },
+                {
+                    "path": "/images/msc-project-images/negative_y.jpg",
+                    "caption": "Negative Y axis."
+                }
+            ]
+        },
+        {
+            "header": "Setting up OpenVSlam",
+            "paras": [
+                ""
+            ],
+            "images": []
         
+        },
+        {
+            "header": "Processing OpenVSlam's Output",
+            "paras": [
+                ""
+            ],
+            "images": []
+        },
+        {
+            "header": "Creating a Discretized Navigation Map",
+            "paras": [
+                ""
+            ],
+            "images": []
+        },
+        {
+            "header": "Establishing a Processing Pipeline",
+            "paras": [
+                ""
+            ],
+            "images": []
         }
     ]
 }
